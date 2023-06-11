@@ -5,7 +5,7 @@
 CODE-15%: a large scale annotated dataset of 12-lead ECGs
 https://zenodo.org/record/4916206
 
-## Usage
+## Quick Start
 - Evalution
 ```
 python evaluate.py
