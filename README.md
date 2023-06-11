@@ -8,7 +8,7 @@ https://zenodo.org/record/4916206
 ## Quick Start
 - Evalution
 ```
-python evaluate.py
+python evaluate.py ${CHECKPOINT}
 ```
 
 - Train
