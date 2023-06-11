@@ -17,11 +17,11 @@ from torch.utils.data import DataLoader
 
 parser = argparse.ArgumentParser(add_help=True,
                                  description='Train model to predict rage from the raw ecg tracing.')
+parser.add_argument('--model_path', required=True, type=str, default='out/resnet1d_bs512')
 parser.add_argument('--root_dir', type=str,
                     default='../data/code15')
 parser.add_argument('--batch_size', type=int, default=512)
 parser.add_argument('--num_workers', type=int, default=4)
-parser.add_argument('--model_path', type=str, default='out/resnet1d_bs512')
 parser.add_argument('--save_csv', type=str, default='predicted_age.csv')
 parser.add_argument('--load_csv', type=str,
                     # default='')
