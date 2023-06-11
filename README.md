@@ -1,18 +1,20 @@
 # ECG Age Regression
 
-
-
-Installation
-
 ## Data
 
-CODE
+CODE-15%: a large scale annotated dataset of 12-lead ECGs
+https://zenodo.org/record/4916206
 
-Model 
-
-Usage
+## Usage
 - Evalution
+```
+python evaluate.py
+```
+
 - Train
+```
+python train.py
+```
 
 Demo
 
