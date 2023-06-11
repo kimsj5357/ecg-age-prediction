@@ -2,10 +2,10 @@
 
 ## Data
 
-CODE-15%: a large scale annotated dataset of 12-lead ECGs
+CODE-15%: a large scale annotated dataset of 12-lead ECGs. 
 https://zenodo.org/record/4916206
 
-## Quick Start
+## Scripts
 - Evalution
 ```
 python evaluate.py ${CHECKPOINT}
@@ -16,5 +16,5 @@ python evaluate.py ${CHECKPOINT}
 python train.py
 ```
 
-Demo
+## Demo
 
